@@ -1,0 +1,4 @@
+# flow when using pdb to debug openstack unittests
+source .tox/py28/bin/activate
+testr init
+python -m testtools.run <testname>
